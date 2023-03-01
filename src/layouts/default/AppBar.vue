@@ -9,7 +9,7 @@
     <template v-slot:prepend>
       <v-list-item
         lines="two"
-        prepend-icon="mdi-account"
+        prepend-icon="mdi-numeric-1-box"
         title="明日方舟一图流"
         subtitle="yituliu.site"
       ></v-list-item>
@@ -17,27 +17,27 @@
     <v-divider nav></v-divider>
     <v-list
       ><v-list-item
-        prepend-icon="mdi-home"
+        prepend-icon="mdi-home-outline"
         title="主页"
         value="home"
       ></v-list-item>
       <v-list-item
-        prepend-icon="mdi-map"
+        prepend-icon="mdi-chart-box-outline"
         title="刷图一图流"
         value="material"
       ></v-list-item>
       <v-list-item
-        prepend-icon="mdi-store"
+        prepend-icon="mdi-store-outline"
         title="常驻商店性价比"
         value="store"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-store-clock"
+        prepend-icon="mdi-store-clock-outline"
         title="活动商店性价比"
         value="activity"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-gift"
+        prepend-icon="mdi-gift-outline"
         title="礼包性价比"
         value="pack"
       ></v-list-item
@@ -47,7 +47,7 @@
         value="gacha"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-table"
+        prepend-icon="mdi-calendar-cursor-outline"
         title="排班表生成器"
         value="riic"
       ></v-list-item
@@ -57,7 +57,7 @@
         value="dev"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-information"
+        prepend-icon="mdi-information-outline"
         title="关于我们"
         value="about"
       ></v-list-item
