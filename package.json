@@ -9,7 +9,6 @@
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@mdi/font": "7.0.96",
     "core-js": "^3.8.3",
     "pinia": "^2.0.23",
     "roboto-fontface": "*",
@@ -19,6 +18,7 @@
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
+    "@mdi/js": "^7.1.96",
     "@vitejs/plugin-vue": "^3.0.3",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",

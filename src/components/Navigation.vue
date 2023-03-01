@@ -9,69 +9,79 @@
     <template v-slot:prepend>
       <v-list-item
         lines="two"
-        prepend-icon="mdi-numeric-1-box"
+        :prepend-icon="mdiNumeric1Box"
         title="明日方舟一图流"
         subtitle="yituliu.site"
       ></v-list-item>
     </template>
     <v-divider nav></v-divider>
     <v-list
-    ><v-list-item
-      prepend-icon="mdi-home-outline"
-      title="主页"
-      value="home"
-      to="/home"
-    ></v-list-item>
+      ><v-list-item
+        :prepend-icon="mdiHomeOutline"
+        title="主页"
+        value="home"
+        to="/home"
+      ></v-list-item>
       <v-list-item
-        prepend-icon="mdi-chart-box-outline"
+        :prepend-icon="mdiChartBoxOutline"
         title="刷图一图流"
         value="material"
         to="/onePage"
       ></v-list-item>
       <v-list-item
-        prepend-icon="mdi-store-outline"
+        :prepend-icon="mdiStoreOutline"
         title="常驻商店性价比"
         value="store"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-store-clock-outline"
+        :prepend-icon="mdiStoreClockOutline"
         title="活动商店性价比"
         value="activity"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-gift-outline"
+        :prepend-icon="mdiGiftOutline"
         title="礼包性价比"
         value="pack"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-calculator"
+        :prepend-icon="mdiCalculator"
         title="攒抽计算器"
         value="gacha"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-calendar-cursor-outline"
+        :prepend-icon="mdiCalendarCursorOutline"
         title="排班表生成器"
         value="riic"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-code-braces"
+        :prepend-icon="mdiCodeBraces"
         title="开发信息"
         value="dev"
       ></v-list-item
       ><v-list-item
-        prepend-icon="mdi-information-outline"
+        :prepend-icon="mdiInformationOutline"
         title="关于我们"
         value="about"
       ></v-list-item
-      ></v-list>
+    ></v-list>
   </v-navigation-drawer>
-  <v-main>
-    <router-view />
-  </v-main>
+  <v-main><router-view /></v-main>
 </template>
 
 <script setup>
-  import { ref } from "vue";
+import {
+  mdiNumeric1Box,
+  mdiHomeOutline,
+  mdiChartBoxOutline,
+  mdiStoreOutline,
+  mdiStoreClockOutline,
+  mdiGiftOutline,
+  mdiCalculator,
+  mdiCalendarCursorOutline,
+  mdiCodeBraces,
+  mdiInformationOutline,
+} from "@mdi/js";
+import { ref } from "vue";
 
-  const drawer = ref(false);
+const drawer = ref(false);
 </script>
