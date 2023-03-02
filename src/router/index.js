@@ -4,12 +4,12 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    component: () => import("@/components/Navigation"),
+    component: () => import("@/components/NavigationMenu"),
     children: [
       {
         path: "/home",
         name: "home",
-        component: () => import("@/views/Home"),
+        component: () => import("@/views/HomePage"),
         // meta:{title:"home页"}
       },
       {

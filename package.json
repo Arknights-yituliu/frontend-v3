@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.vue . --fix --ignore-path .gitignore"
+    "lint": "eslint --ext .js,.vue . --fix --ignore-path .gitignore",
+    "prepare": "husky install"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -24,6 +25,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
+    "husky": "^8.0.3",
     "prettier": "2.8.4",
     "sass": "^1.55.0",
     "vite": "^3.1.9",
