@@ -3,22 +3,22 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: '/',
+    path: "/",
     component: () => import("@/components/Navigation"),
     children: [
       {
-        path: '/home',
-        name: 'home',
+        path: "/home",
+        name: "home",
         component: () => import("@/views/Home"),
         // meta:{title:"home页"}
       },
       {
-        path: '/onePage',
-        name: 'onePage',
+        path: "/onePage",
+        name: "onePage",
         component: () => import("@/views/OnePage"),
         // meta:{title:"home页"}
-      }
-    ]
+      },
+    ],
   },
 ];
 

@@ -1,12 +1,12 @@
 <template>
   <v-app-bar color="primary">
-    <template v-slot:prepend>
+    <template #prepend>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
     </template>
     <v-app-bar-title>明日方舟一图流</v-app-bar-title>
   </v-app-bar>
   <v-navigation-drawer v-model="drawer" temporary>
-    <template v-slot:prepend>
+    <template #prepend>
       <v-list-item
         lines="two"
         :prepend-icon="mdiNumeric1Box"
