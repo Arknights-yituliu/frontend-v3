@@ -1,7 +1,9 @@
 <template>
   <v-app>
-    <router-view />
+    <navigation-menu />
   </v-app>
 </template>
 
-<script setup></script>
+<script setup>
+import NavigationMenu from "./components/NavigationMenu.vue";
+</script>

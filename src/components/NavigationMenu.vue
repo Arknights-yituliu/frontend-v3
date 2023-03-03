@@ -20,7 +20,7 @@
         :prepend-icon="mdiHomeOutline"
         title="主页"
         value="home"
-        to="/home"
+        to="/"
       ></v-list-item>
       <v-list-item
         :prepend-icon="mdiChartBoxOutline"
