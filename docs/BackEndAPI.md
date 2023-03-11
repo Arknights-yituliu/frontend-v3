@@ -234,23 +234,23 @@ API 的响应数据，一般是一个 JSON，部分情况为 String
 
 |       字段名        | 数据类型 |                    说明                    |
 | :-----------------: | :------: | :----------------------------------------: |
-|    packShowName     |  String  |                礼包展示名称                |
-|      packType       |  String  |                礼包售卖类型                |
+|    packShowName     |  String  |                礼包展示在页面上的名称                |
+|      packType       |  String  |                礼包的种类，如一次性、月卡、常驻，用于筛选礼包                |
 |      packDraw       |  Double  |                礼包包含抽数                |
-|     packPPRDraw     |  Double  |          礼包相对大月卡的折扣幅度          |
-|  packPPROriginium   |  Double  |        礼包相对 648 源石的折扣幅度         |
-|       packImg       |  String  |                礼包图片名称                |
-|      packPrice      |   Int    |                  礼包 ID                   |
-|       packID        |   Int    |             商店性价比具体内容             |
-| packRmbPerOriginium |  Double  | 礼包全部物品折算源石后每颗源石的氪金性价比 |
-|     gachaPermit     |   Int    |               礼包内单抽数量               |
-|      packState      |   Int    |                是否正在售卖                |
+|     packPPRDraw     |  Double  |          礼包仅计抽卡性价比，相对 648 源石          |
+|  packPPROriginium   |  Double  |        礼包综合价比，相对 648 源石         |
+|       packImg       |  String  |                礼包图片名称，用于查找图片地址                |
+|      packPrice      |   Int    |                  礼包的价格                   |
+|       packID        |   Int    |           ID用于配合前端筛选礼包             |
+| packRmbPerOriginium |  Double  | 礼包全部物品折算源石后，每RMB能买到的源石数 |
+|     gachaPermit     |   Int    |               礼包内单抽数量，gachaCal使用此字段               |
+|      packState      |   Int    |                是否正在售卖，这个建议以后改成用时间判断                |
 |    packOriginium    |  Double  |        礼包全部物品折算为源石的数量        |
-|   packRmbPerDraw    |  Double  |           礼包每一抽的氪金性价比           |
-|    gachaPermit10    |   Int    |               礼包内十连数量               |
-|   gachaOriginium    |   Int    |               礼包内源石数量               |
-|      packName       |  String  |                  礼包名称                  |
-|    gachaOrundum     |   Int    |              礼包内合成玉数量              |
+|   packRmbPerDraw    |  Double  |           礼包每一抽的价格           |
+|    gachaPermit10    |   Int    |               礼包内十连数量，gachaCal使用此字段               |
+|   gachaOriginium    |   Int    |               礼包内源石数量，gachaCal使用此字段               |
+|      packName       |  String  |                  礼包官方名称                  |
+|    gachaOrundum     |   Int    |              礼包内合成玉数量，gachaCal使用此字段              |
 |     packContent     |  Object  |          礼包内除抽卡资源外的内容          |
 
 其中`packContent`字段包含俩个字段
