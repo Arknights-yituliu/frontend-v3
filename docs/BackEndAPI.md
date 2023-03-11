@@ -252,6 +252,7 @@ API 的响应数据，一般是一个 JSON，部分情况为 String
 |      packName       |  String  |                  礼包官方名称                  |
 |    gachaOrundum     |   Int    |              礼包内合成玉数量，gachaCal使用此字段              |
 |     packContent     |  Object  |          礼包内除抽卡资源外的内容          |
+|     packTag     |  String  |          需要显示的附加说明，如“含有不可计价材料，请点击图片查看详情”          |
 
 其中`packContent`字段包含俩个字段
 
