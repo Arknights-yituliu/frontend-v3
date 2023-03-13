@@ -1,7 +1,11 @@
 <template>
-  <HelloWorld />
+  <v-container>
+    <v-row>
+      <v-col><map-card /></v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script setup>
-import HelloWorld from "@/components/HelloWorld.vue";
+import MapCard from "@/components/MapCard.vue";
 </script>
