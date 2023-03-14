@@ -65,7 +65,7 @@
       ></v-list-item
     ></v-list>
   </v-navigation-drawer>
-  <v-main><router-view /></v-main>
+  <v-main scrollable><router-view /></v-main>
 </template>
 
 <script setup>

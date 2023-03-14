@@ -1,7 +1,7 @@
 <template>
-  <v-app>
+  <v-layout>
     <navigation-menu />
-  </v-app>
+  </v-layout>
 </template>
 
 <script setup>
