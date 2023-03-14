@@ -9,9 +9,9 @@ const routes = [
     // meta:{title:"home页"}
   },
   {
-    path: "/onePage",
-    name: "onePage",
-    component: () => import("@/views/OnePage"),
+    path: "/stages",
+    name: "bestStages",
+    component: () => import("@/views/BestStages"),
     // meta:{title:"home页"}
   },
 ];

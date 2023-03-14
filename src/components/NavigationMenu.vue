@@ -25,8 +25,8 @@
       <v-list-item
         :prepend-icon="mdiChartBoxOutline"
         title="刷图一图流"
-        value="material"
-        to="/onePage"
+        value="stage"
+        to="/stages"
       ></v-list-item>
       <v-list-item
         :prepend-icon="mdiStoreOutline"
