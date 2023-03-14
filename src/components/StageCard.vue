@@ -3,7 +3,9 @@
     <v-toolbar density="compact">
       <v-icon class="ms-3" :icon="mdiChartBoxOutline"></v-icon>
       <v-toolbar-title class="ms-2">刷图推荐</v-toolbar-title>
-      <v-btn icon><v-icon :icon="mdiArrowRight"></v-icon></v-btn>
+      <v-btn icon :to="{ name: 'bestStages' }"
+        ><v-icon :icon="mdiArrowRight"></v-icon
+      ></v-btn>
     </v-toolbar>
     <v-carousel
       height="183"

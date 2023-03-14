@@ -21,6 +21,7 @@
         title="主页"
         value="home"
         to="/"
+        :active="$route.path == '/'"
       ></v-list-item>
       <v-list-item
         :prepend-icon="mdiChartBoxOutline"
