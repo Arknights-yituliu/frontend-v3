@@ -6,8 +6,8 @@
       <v-btn icon><v-icon :icon="mdiArrowRight"></v-icon></v-btn>
     </v-toolbar>
     <v-carousel
-      height="148"
-      hide-delimiters
+      height="183"
+      hide-delimiter-background
       :show-arrows="false"
       :interval="3000"
     >
